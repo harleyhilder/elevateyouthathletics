@@ -1,8 +1,9 @@
 import { useReveal } from '../hooks/useReveal'
+import groupPhoto from '../assets/field-group.jpg'
 
 export default function Contact() {
   const headerRef = useReveal()
-  const infoRef = useReveal()
+  const bodyRef = useReveal()
 
   return (
     <section id="contact" className="contact-section">
@@ -12,21 +13,35 @@ export default function Contact() {
           <h2 className="section-title">READY TO <span>ELEVATE</span><br />YOUR SCHOOL?</h2>
         </div>
 
-        <div className="contact-info-centered reveal" ref={infoRef}>
-          <p className="contact-info-sub" style={{ marginBottom: 40 }}>
-            No pressure. No commitment required. Just a conversation about what
-            Elevate Youth Athletics can do for your students.
-          </p>
+        <div className="contact-two-col reveal" ref={bodyRef}>
+          {/* Left — info */}
+          <div className="contact-info-col">
+            <p className="contact-info-sub">
+              No pressure. No commitment required. Just a conversation about what
+              Elevate Youth Athletics can do for your students.
+            </p>
 
-          <div className="contact-info-items contact-info-items--centered">
-            <ContactInfoItem icon={<LocationIcon />} label="Service Area" value="Greater Phoenix &amp; Arizona Statewide" />
-            <ContactInfoItem icon={<PhoneIcon />} label="Phone" value="<a href='tel:4802264169'>480-226-4169</a>" />
-            <ContactInfoItem icon={<EmailIcon />} label="Email" value="<a href='mailto:Mtomey0463@gmail.com'>Mtomey0463@gmail.com</a>" />
+            <div className="contact-info-items">
+              <ContactInfoItem icon={<LocationIcon />} label="Service Area" value="Greater Phoenix &amp; Arizona Statewide" />
+              <ContactInfoItem icon={<PhoneIcon />} label="Phone" value="<a href='tel:4802264169'>480-226-4169</a>" />
+              <ContactInfoItem icon={<EmailIcon />} label="Email" value="<a href='mailto:Mtomey0463@gmail.com'>Mtomey0463@gmail.com</a>" />
+            </div>
+
+            <div className="contact-promise">
+              <strong>We respond within 24 hours.</strong>
+              <p>Every inquiry is personal. You&rsquo;ll hear directly from the owner, not an automated system.</p>
+            </div>
           </div>
 
-          <div className="contact-promise" style={{ maxWidth: 480, margin: '40px auto 0' }}>
-            <strong>We respond within 24 hours.</strong>
-            <p>Every inquiry is personal. You&rsquo;ll hear directly from the owner, not an automated system.</p>
+          {/* Right — photo */}
+          <div className="contact-photo-col">
+            <div className="contact-photo-frame">
+              <img
+                src={groupPhoto}
+                alt="Elevate Youth Athletics coach with students on the field"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
