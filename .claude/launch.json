@@ -3,9 +3,9 @@
   "configurations": [
     {
       "name": "frontend",
-      "runtimeExecutable": "/Users/harleyhilder/.nvm/versions/node/v22.13.1/bin/npm",
-      "runtimeArgs": ["run", "dev"],
-      "port": 5173
+      "runtimeExecutable": "/Users/harleyhilder/Desktop/elevate youth athletics/start-dev.sh",
+      "runtimeArgs": [],
+      "port": 5180
     }
   ]
 }
