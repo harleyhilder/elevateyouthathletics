@@ -1323,12 +1323,17 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   }
   .hero-content {
     padding-top: calc(var(--nav-height) + 32px);
-    padding-bottom: 160px;
+    padding-bottom: 240px;
   }
   .hero h1 { font-size: clamp(52px, 14vw, 80px); }
   .hero-tagline { font-size: 15px; }
   .hero-cta-group { flex-direction: column; gap: 12px; }
   .hero-cta-group .btn { width: 100%; text-align: center; }
+
+  /* Compact stats bar on mobile so it takes less vertical space */
+  .hero-stat { padding: 16px 12px; }
+  .hero-stat-number { font-size: 28px; }
+  .hero-stat-label { font-size: 11px; }
 
   /* Hero stats — 2x2 grid */
   .hero-stats-bar .container { grid-template-columns: repeat(2, 1fr); }
