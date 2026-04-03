@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import heroImg from '../assets/field-session.jpeg'
 
 const STATS = [
   { number: '12+', label: 'NFHS Certifications' },
@@ -20,7 +21,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section id="home" className="hero">
+    <section id="home" className="hero" style={{ backgroundImage: `url(${heroImg})` }}>
       <div className="hero-overlay" />
 
       <div

@@ -1,4 +1,5 @@
 import { useReveal } from '../hooks/useReveal'
+import ownerPhoto from '../assets/owner.jpg'
 
 export default function About() {
   const textRef = useReveal()
@@ -47,9 +48,7 @@ export default function About() {
           </div>
 
           <div className="about-image-frame reveal" ref={imgRef}>
-            {/* Replace this placeholder with an <img> tag once a photo is available */}
-            <span className="about-photo-initials">EYA</span>
-            <span className="about-photo-placeholder-label">Photo Coming Soon</span>
+            <img src={ownerPhoto} alt="Elevate Youth Athletics owner and head coach" />
             <span className="az-badge">Arizona</span>
           </div>
         </div>

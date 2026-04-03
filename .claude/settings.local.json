@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "mcp__cf3b4314-12f4-4d06-90c9-03e4f7c5aea0__deploy_to_vercel"
+      "mcp__cf3b4314-12f4-4d06-90c9-03e4f7c5aea0__deploy_to_vercel",
+      "mcp__518711bb-8618-48e3-8fe0-977ed5d3f4f6__ListWixSites",
+      "mcp__518711bb-8618-48e3-8fe0-977ed5d3f4f6__SearchWixRESTDocumentation",
+      "mcp__518711bb-8618-48e3-8fe0-977ed5d3f4f6__ReadFullDocsArticle",
+      "mcp__518711bb-8618-48e3-8fe0-977ed5d3f4f6__ManageWixSite"
     ]
   }
 }
