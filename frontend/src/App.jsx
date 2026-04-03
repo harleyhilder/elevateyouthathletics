@@ -4,7 +4,6 @@ import Services from './components/Services'
 import WhyElevate from './components/WhyElevate'
 import About from './components/About'
 import Programs from './components/Programs'
-import Gallery from './components/Gallery'
 import Credentials from './components/Credentials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -19,7 +18,6 @@ function App() {
         <WhyElevate />
         <About />
         <Programs />
-        <Gallery />
         <Credentials />
         <Contact />
       </main>
