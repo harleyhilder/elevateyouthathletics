@@ -22,7 +22,7 @@ export default function Contact() {
             </p>
 
             <div className="contact-info-items">
-              <ContactInfoItem icon={<LocationIcon />} label="Service Area" value="Greater Phoenix &amp; Arizona Statewide" />
+              <ContactInfoItem icon={<LocationIcon />} label="Service Area" value="Greater Phoenix Area, Arizona" />
               <ContactInfoItem icon={<PhoneIcon />} label="Phone" value="<a href='tel:4802264169'>480-226-4169</a>" />
               <ContactInfoItem icon={<EmailIcon />} label="Email" value="<a href='mailto:Mtomey0463@gmail.com'>Mtomey0463@gmail.com</a>" />
             </div>
