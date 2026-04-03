@@ -128,8 +128,8 @@ export default function Contact() {
             </p>
             <div className="contact-info-items">
               <ContactInfoItem icon={<LocationIcon />} label="Service Area" value="Greater Phoenix &amp; Arizona Statewide" />
-              <ContactInfoItem icon={<EmailIcon />} label="Email" value="[email@elevateyouthathletics.com]" />
-              <ContactInfoItem icon={<PhoneIcon />} label="Phone" value="[(555) 000-0000]" />
+              <ContactInfoItem icon={<EmailIcon />} label="Email" value="<a href='mailto:Mtomey0463@gmail.com'>Mtomey0463@gmail.com</a>" />
+              <ContactInfoItem icon={<PhoneIcon />} label="Phone" value="<a href='tel:4802264169'>480-226-4169</a>" />
             </div>
             <div className="contact-promise">
               <strong>We respond within 24 hours.</strong>

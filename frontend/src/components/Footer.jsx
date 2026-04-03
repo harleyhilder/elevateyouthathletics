@@ -37,6 +37,13 @@ export default function Footer() {
                 <li><a href="#contact">Get a Quote</a></li>
               </ul>
             </div>
+            <div className="footer-nav-col">
+              <h4>Contact</h4>
+              <ul>
+                <li><a href="tel:4802264169">480-226-4169</a></li>
+                <li><a href="mailto:Mtomey0463@gmail.com">Mtomey0463@gmail.com</a></li>
+              </ul>
+            </div>
           </div>
         </div>
 
