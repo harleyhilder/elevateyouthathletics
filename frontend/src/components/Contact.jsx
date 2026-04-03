@@ -1,5 +1,4 @@
 import { useReveal } from '../hooks/useReveal'
-import groupPhoto from '../assets/field-group.jpg'
 
 export default function Contact() {
   const headerRef = useReveal()
@@ -33,14 +32,38 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right — photo */}
+          {/* Right — placeholder */}
           <div className="contact-photo-col">
-            <div className="contact-photo-frame">
-              <img
-                src={groupPhoto}
-                alt="Elevate Youth Athletics coach with students on the field"
-                loading="lazy"
-              />
+            <div className="contact-photo-frame contact-photo-placeholder">
+              <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="400" height="300" fill="#112B50"/>
+                {/* Field lines */}
+                <rect x="40" y="220" width="320" height="3" fill="#1a3a6b" rx="1"/>
+                <rect x="40" y="240" width="320" height="3" fill="#1a3a6b" rx="1"/>
+                <rect x="40" y="260" width="320" height="3" fill="#1a3a6b" rx="1"/>
+                {/* Centre circle */}
+                <circle cx="200" cy="150" r="70" fill="none" stroke="#1e4070" strokeWidth="2"/>
+                <circle cx="200" cy="150" r="5" fill="#1e4070"/>
+                {/* Goal posts — left */}
+                <rect x="50" y="110" width="4" height="80" fill="#1e4070"/>
+                <rect x="30" y="110" width="44" height="4" fill="#1e4070"/>
+                <rect x="30" y="108" width="4" height="8" fill="#1e4070"/>
+                <rect x="70" y="108" width="4" height="8" fill="#1e4070"/>
+                {/* Goal posts — right */}
+                <rect x="346" y="110" width="4" height="80" fill="#1e4070"/>
+                <rect x="326" y="110" width="44" height="4" fill="#1e4070"/>
+                <rect x="326" y="108" width="4" height="8" fill="#1e4070"/>
+                <rect x="366" y="108" width="4" height="8" fill="#1e4070"/>
+                {/* Camera / image icon */}
+                <g transform="translate(170,128)">
+                  <rect x="0" y="8" width="60" height="44" rx="4" fill="none" stroke="#FF5E14" strokeWidth="2"/>
+                  <circle cx="30" cy="30" r="12" fill="none" stroke="#FF5E14" strokeWidth="2"/>
+                  <circle cx="30" cy="30" r="5" fill="#FF5E14"/>
+                  <rect x="20" y="4" width="20" height="8" rx="2" fill="none" stroke="#FF5E14" strokeWidth="2"/>
+                </g>
+                {/* Label */}
+                <text x="200" y="210" textAnchor="middle" fill="#4a6a9a" fontSize="13" fontFamily="sans-serif">Photo coming soon</text>
+              </svg>
             </div>
           </div>
         </div>

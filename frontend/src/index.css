@@ -1140,6 +1140,22 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   border-top: 4px solid var(--color-orange);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
   line-height: 0;
+  width: 100%;
+}
+
+.contact-photo-placeholder {
+  background: #0e2444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  line-height: 0;
+}
+
+.contact-photo-placeholder svg {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .contact-photo-frame img {
